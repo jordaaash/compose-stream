@@ -1,0 +1,33 @@
+{
+    "name":         "compose-stream",
+    "version":      "0.0.1",
+    "description":  "Compose a Node stream at runtime with conditional logic.",
+    "main":         "index.js",
+    "scripts":      { },
+    "repository":   {
+        "type": "git",
+        "url":  "git+https://github.com/jordansexton/compose-stream.git"
+    },
+    "keywords":     [
+        "node",
+        "stream",
+        "conditional",
+        "gulp"
+    ],
+    "author":       "Jordan Sexton <jordan@jordansexton.com>",
+    "contributors": [
+        {
+            "name":  "Jordan Sexton",
+            "email": "jordan@jordansexton.com"
+        }
+    ],
+    "license":      "MIT",
+    "bugs":         {
+        "url": "https://github.com/jordansexton/compose-stream/issues"
+    },
+    "homepage":     "https://github.com/jordansexton/compose-stream",
+    "dependencies": {
+        "duplexer2": "0.0.2",
+        "through2":  "0.6.5"
+    }
+}
