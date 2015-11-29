@@ -1,6 +1,6 @@
 {
     "name":         "compose-stream",
-    "version":      "0.0.1",
+    "version":      "0.0.2",
     "description":  "Compose a Node stream at runtime with conditional logic.",
     "main":         "index.js",
     "scripts":      { },
