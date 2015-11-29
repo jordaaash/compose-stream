@@ -27,7 +27,8 @@
     },
     "homepage":     "https://github.com/jordansexton/compose-stream",
     "dependencies": {
-        "duplexer2": "0.0.2",
-        "through2":  "0.6.5"
+        "duplexer2":    "0.0.2",
+        "merge-stream": "1.0.0",
+        "through2":     "0.6.5"
     }
 }

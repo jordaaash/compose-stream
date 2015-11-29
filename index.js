@@ -2,6 +2,7 @@
 
 var duplexer = require('duplexer2');
 var through  = require('through2');
+var merge    = require('merge-stream');
 
 var composeStream = function (fn) {
     var output = through.obj();
@@ -21,6 +22,9 @@ var composeStream = function (fn) {
         function (chunk, encoding, callback) {
             stream = fn.call(this, chunk, encoding);
             if (stream) {
+                if (Array.isArray(stream)) {
+                    stream = merge.apply(null, stream);
+                }
                 stream.on('error', function (error) {
                     output.emit('error', error);
                 });
