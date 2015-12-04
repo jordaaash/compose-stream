@@ -1,6 +1,6 @@
 {
     "name":         "compose-stream",
-    "version":      "0.0.2",
+    "version":      "0.0.1",
     "description":  "Compose a Node stream at runtime with conditional logic.",
     "main":         "index.js",
     "scripts":      { },
@@ -27,8 +27,7 @@
     },
     "homepage":     "https://github.com/jordansexton/compose-stream",
     "dependencies": {
-        "duplexer2":    "0.0.2",
-        "merge-stream": "1.0.0",
-        "through2":     "0.6.5"
+        "duplexer2": "0.0.2",
+        "through2":  "0.6.5"
     }
 }
